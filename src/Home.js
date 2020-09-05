@@ -34,8 +34,8 @@ const Home = () => {
 
     return (
         <>
-            <ToastContainer />
-            <div className="text-center text-danger" style={{ fontFamily: "brush script mt", fontSize: "5rem" }}>Oracleworlds.com</div>
+            <ToastContainer position="bottom-right" />
+            <div className="text-center text-danger header-text">Oracleworlds.com</div>
             <div className="row" style={{ margin: "0" }}>
                 <div className="col-lg-5 imageBlock">
                     <div className="container">

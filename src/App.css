@@ -26,6 +26,14 @@ input[type]:focus {
   .imageBlock{
     display: none;
   }
+  .header-text{
+font-size: 3em;
+font-weight: 800;
+  }
+  .developerIcon{
+    width: 5%;
+  }
+
 }
 
 .loader{
@@ -37,12 +45,16 @@ input[type]:focus {
   top: 0;
   }
 
-  .developerIcon{
-    width: 2%;
+  
+  @media only screen and (min-width: 600px){
+    .developerIcon{
+      width: 2%;
+    }
+    .header-text{
+      font-size: 5rem;
+        }
   }
 
-  @media only screen and (max-width: 600px){
-    .developerIcon{
-      width: 9%;
-    }
+  .header-text{
+    font-family: Brush Script MT, cursive;
   }
